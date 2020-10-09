@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+     <meta charset="utf-8">
+     <title>RESUME OF ALIGBE GRACE</title> 
+  </head> 
+
+  <style> 
+      
+      
+      body{
+         background-color: white;
+         color: black;
+         font-size: 100px;
+         border:30px solid purple;
+         top:10px;
+         float: left;
+         transition: background 0.2s linear;
+          }
+
+      body.dark{
+        background-color: black;
+       }
+  
+       .checkbox: {
+       capacity:0;
+       position:absolute;
+       }
+
+     *{
+        box-sizing: border-box;
+      }
+
+     .label{
+        background-color:grey;
+        display:flex;
+        align-items:top;
+        justify-content:space-between;
+        border-radius:10px;
+        position:right;
+        padding:5px;
+        height:5px;
+        width:20px;
+      }
+
+     .ball{
+        background-color:white;
+        border-radius:10px;
+        position:absolute;
+        height:7px;
+        width:8px;
+        transition:transform 0.2s linear;
+       }
+
+     .checkbox:checked + .label .ball{
+        transform:translateX(24px);
+        }
+
+    
+
+     .fa-moon {
+        color: white;
+        }
+
+     .fa-sun {
+        color:yellow;
+        }
+     
+            
+      h1,h2,h3,h4,h5,h6,h7{ 
+        background:grey;
+        Color:white;
+        font-size:22px;
+        font-family:sans-serif;
+        font-weight:bold;
+        margin-right:570px;
+        margin-bottom:40px;
+        border:5px solid 
+        }
+      p{
+        font-family:fantasy;
+        font-size:13px;
+        right:50px;
+        margin-left:400px;
+        margin-bottom:10px;
+        margin-top:autopx;
+       }
+      div.species{
+        font-size:30px;
+        float:right;
+        color: brown;
+        top:15;
+       }
+  </style>
+  <body> 
+    
+   <div>
+     <input type= "checkbox"
+    class = "checkbox" id="checkbox">
+    <label for="checkbox"
+      class="label">
+      <i class="fas fa-moon"></i>
+      <i class="fas fa-sun"></i>
+      <div class="ball"></div>
+   </label>
+   <h1>ALIGBE GRACE</h1>
+   <div class="species">08109669194<br>aligbegrace97@gmail.com<br><a href="https://github.com/Grace2302">github.com/Grace2302</a><br><a href="https://www.linkedin.com/in/grace-aligbe-469b90164">LinkedIn: Grace Aligbe</a></div> 
+   <img src="https://pbs.twimg.com/profile_images/1047076746812633089/fTqGE7l9.jpgg" alt="Aligbe Grace" style="width:250px;height:250px;">
+
+      
+      <h2>INTRODUCTION</h2>
+      <p> My name is Aligbe Grace, a Social Engineer from Delta State but born in Kano State. A trained facilitator, human resource officer, project manager and communicator. I love developing myself with new life skills as I am currently learning coding and web development. I love humanitarian service and I have volunteered for some community outreach program which mostly aims at children's health and wellbeing. Participated in conflict resolution and orientation in Plateau and Nassarawa States respectively.</p>
+
+
+      <h3>INTEREST</h3>
+      <p>Research, Reading, Facilitating, Traveling, Basketball, Old School Music Volunteering and web development.</p>
+
+   
+     <h4>SKILLS</h4>
+     <p>Facilitator</p>
+     <p>Communicator</p>
+     <p>HTML</p>
+     <p>CSS</p>
+     <p>JAVASCRIPT</p>
+     <center>
+     <img src="http://W3.HTML" alt="HTML"</a>
+     <img src="http://W3.CSS" alt="CSS"</a>
+     <img src="http://W3.JavaScript" alt="JavaScript"</a>
+     </center>
+     
+
+
+    <h5>EDUCATION</h5>
+
+
+    <p><strong>B.Sc. Sociology</strong></p>
+    <p>Madonna University, Okija, Nigeria<br>2013-2017</p>
+    <p><strong>Master's in Social Work</strong></p>
+    <p>Bayero University, Kano, Nigeria<br>2020-till date</p>
+    
+    
+
+    <h6>EXPERIENCE</h6>
+
+    <p><strong>Build for SDGs</strong><br> Participant<br> August 2020-till date</p>
+    <p><strong>Banco Fixed Odds</strong><br> Personal Assistant to the MD<br>
+June 2019 – March 2020</p>
+    <p><strong>Adolescent Health and Information Project, Kano (AHIP)</strong><br> Program Assistant<br>May 2018-March 2019</p>
+    <p><strong>PZ Cussons PLC, Kano</strong><br> Retail Assistant<br> October 2012 – September 2013</p>
+    
+  
+
+  <h7>TRAININGS AND AWARDS</h7></div>
+
+   <p>Academic Excellence<br><strong>Dept of Sociology/Anthropology Madonna University Okija</strong></p>
+
+  <p>Project Management Professional (PMP)<br><strong>HACELAT PROFESSIONALS</strong></p>
+
+  <p>Health and Safety Environment
+ (HSE)<br><strong>HACELAT PROFESSIONALS</strong></p>
+  <p>Human Resource Management (HRM)<br> <strong>HACELAT PROFESSIONALS</strong></p>
+
+  <p>Entrepreneurship Management<br> <strong>HACELAT PROFESSIONALS</strong></p>
+
+  <p>Life Skills Training,<br> <strong>AHIP</strong></p>
+
+  <p>Trained on Data Gathering using ODK Collect<br> <strong>eHealth Africa Academy</strong></p>
+
+  <p>Trained on HTML and CSS<br><strong>eHealth Africa Academy</strong></p>
+
+  <p>Trained on Humanitarianism<br><strong>Save the Children</strong></p>
+  </div>
+     <center>
+       Copyright © 2020 ALIGBE GRACE
+     </center>
+
+    
+   <script>
+     var checkbox = document.getElementById("checkbox");
+     var checkbox.addEventListener('change',()=>{
+      //change the background-color of the website
+    document.body.class list.toggle('dark');
+    ));
+   
+   </script>
+
+ 
+  
+
+   </body>
+</html>
